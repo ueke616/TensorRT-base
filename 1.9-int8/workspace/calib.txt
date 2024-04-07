@@ -1,0 +1,56 @@
+TRT-8601-EntropyCalibration2
+image: 3ca398cc
+/backbone/conv1/Conv_output_0: 3c8d76a6
+/backbone/relu/Relu_output_0: 3c8d76a6
+/backbone/maxpool/MaxPool_output_0: 3c8d76a6
+/backbone/layer1/layer1.0/conv1/Conv_output_0: 3cf35ec2
+/backbone/layer1/layer1.0/relu/Relu_output_0: 3c36f52a
+/backbone/layer1/layer1.0/conv2/Conv_output_0: 3cf1ce6c
+/backbone/layer1/layer1.0/Add_output_0: 3ced4214
+/backbone/layer1/layer1.0/relu_1/Relu_output_0: 3cd7eff0
+/backbone/layer1/layer1.1/conv1/Conv_output_0: 3ca0fe7d
+/backbone/layer1/layer1.1/relu/Relu_output_0: 3c613ac4
+/backbone/layer1/layer1.1/conv2/Conv_output_0: 3ce18965
+/backbone/layer1/layer1.1/Add_output_0: 3d1c70da
+/backbone/layer1/layer1.1/relu_1/Relu_output_0: 3d1c70da
+/backbone/layer2/layer2.0/conv1/Conv_output_0: 3c80152a
+/backbone/layer2/layer2.0/relu/Relu_output_0: 3c4b4fbf
+/backbone/layer2/layer2.0/conv2/Conv_output_0: 3c9ec968
+/backbone/layer2/layer2.0/downsample/downsample.0/Conv_output_0: 3c4aa129
+/backbone/layer2/layer2.0/Add_output_0: 3cb80bf3
+/backbone/layer2/layer2.0/relu_1/Relu_output_0: 3cc9fdcb
+/backbone/layer2/layer2.1/conv1/Conv_output_0: 3c8c5f58
+/backbone/layer2/layer2.1/relu/Relu_output_0: 3c788d56
+/backbone/layer2/layer2.1/conv2/Conv_output_0: 3cc1015b
+/backbone/layer2/layer2.1/Add_output_0: 3ce2290f
+/backbone/layer2/layer2.1/relu_1/Relu_output_0: 3cd7938b
+/backbone/layer3/layer3.0/conv1/Conv_output_0: 3c6a240b
+/backbone/layer3/layer3.0/relu/Relu_output_0: 3c468a16
+/backbone/layer3/layer3.0/conv2/Conv_output_0: 3cc29b30
+/backbone/layer3/layer3.0/downsample/downsample.0/Conv_output_0: 3c0d998a
+/backbone/layer3/layer3.0/Add_output_0: 3cbcbccc
+/backbone/layer3/layer3.0/relu_1/Relu_output_0: 3cb10a06
+/backbone/layer3/layer3.1/conv1/Conv_output_0: 3c8dba4b
+/backbone/layer3/layer3.1/relu/Relu_output_0: 3c739c79
+/backbone/layer3/layer3.1/conv2/Conv_output_0: 3ce9538c
+/backbone/layer3/layer3.1/Add_output_0: 3cd563db
+/backbone/layer3/layer3.1/relu_1/Relu_output_0: 3cbd9123
+/backbone/layer4/layer4.0/conv1/Conv_output_0: 3c80fbf3
+/backbone/layer4/layer4.0/relu/Relu_output_0: 3c65234c
+/backbone/layer4/layer4.0/conv2/Conv_output_0: 3cd08fd0
+/backbone/layer4/layer4.0/downsample/downsample.0/Conv_output_0: 3c9d66a1
+/backbone/layer4/layer4.0/Add_output_0: 3cd4fe0c
+/backbone/layer4/layer4.0/relu_1/Relu_output_0: 3cb36ee3
+/backbone/layer4/layer4.1/conv1/Conv_output_0: 3c9cdc56
+/backbone/layer4/layer4.1/relu/Relu_output_0: 3c2f48bc
+/backbone/layer4/layer4.1/conv2/Conv_output_0: 3dc7d31a
+/backbone/layer4/layer4.1/Add_output_0: 3dede8b2
+/backbone/layer4/layer4.1/relu_1/Relu_output_0: 3dede8b2
+/backbone/avgpool/GlobalAveragePool_output_0: 3d00112e
+/backbone/Flatten_output_0: 3d00112e
+(Unnamed Layer* 53) [Constant]_output: 3b9135c3
+(Unnamed Layer* 54) [Matrix Multiply]_output: 3dbbe2c4
+(Unnamed Layer* 55) [Constant]_output: 39ccbc42
+(Unnamed Layer* 56) [Shuffle]_output: 39ccbc42
+/backbone/fc/Gemm_output_0: 3dbc06fe
+prob: 3a1d4d60
